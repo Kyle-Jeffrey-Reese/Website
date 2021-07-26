@@ -33,5 +33,5 @@ I am currently constructing this website and making this my main page (older pag
 * Programming website solutions (Kattis, Project Euler, Project Rosalind, etc.)
 * Code to reference for future use
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
