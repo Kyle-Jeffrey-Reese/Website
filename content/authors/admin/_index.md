@@ -26,7 +26,7 @@ title: Kyle Reese
 Hi! I am Kyle Reese and I am interested in statistics, applied mathematics, and computer science and their applications in insurance, finance, and biology. I currently work at Westfield Insurance where I am responsible for personal lines data needs. 
 
 I am currently constructing this website and making this my main page (older page was https://kyle-jeffrey-reese.github.io/personal-website/
-). The things on the navbar might not currently work yet but please give me patience! Some of the things I am working on include:
+). The things on the navbar do have some placeholder information in them but this website is obviously not a finished project! Some of the things I am working on include:
 
 * Academic papers I have written
 * Projects I have created (including Shiny, Streamlit, and Dash apps)
