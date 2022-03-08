@@ -1,0 +1,12 @@
+---
+title: "Linear Algebra: Theory, Intuition, Code by Mike X Cohen"
+author: "Kyle Reese"
+date: "3/2/2022"
+output: html_document
+---
+
+Notes, code, and solutions for Linear Algebra: Theory, Intuition, Code by Mike X Cohen:
+
+[Chapter 2]() \
+[Chapter 3]() \
+[Chapter 4]() \

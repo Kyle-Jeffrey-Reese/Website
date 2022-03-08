@@ -30,8 +30,8 @@
   
     
   
-  <meta name="description" content="Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
-Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation." />
+  <meta name="description" content="Examples Code Academic supports a Markdown extension for highlighting code syntax. Enable this feature by toggling the highlight option in your config/_default/params.toml file.
+```pythonimport pandas as pddata = pd." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://academic-demo.netlify.app/post/writing-technical-content/" />
@@ -312,8 +312,8 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   <meta property="og:site_name" content="Kyle Reese" />
   <meta property="og:url" content="https://academic-demo.netlify.app/post/writing-technical-content/" />
   <meta property="og:title" content="Writing technical content in Academic | Kyle Reese" />
-  <meta property="og:description" content="Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
-Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation." /><meta property="og:image" content="https://academic-demo.netlify.app/post/writing-technical-content/featured.jpg" />
+  <meta property="og:description" content="Examples Code Academic supports a Markdown extension for highlighting code syntax. Enable this feature by toggling the highlight option in your config/_default/params.toml file.
+```pythonimport pandas as pddata = pd." /><meta property="og:image" content="https://academic-demo.netlify.app/post/writing-technical-content/featured.jpg" />
     <meta property="twitter:image" content="https://academic-demo.netlify.app/post/writing-technical-content/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
@@ -370,7 +370,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
       "url": "https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.\nHighlight your code snippets, take notes on math classes, and draw diagrams from textual representation."
+  "description": "Examples Code Academic supports a Markdown extension for highlighting code syntax. Enable this feature by toggling the highlight option in your config/_default/params.toml file.\n```python\rimport pandas as pd\rdata = pd."
 }
 </script>
 
@@ -510,17 +510,10 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/projects"><span>Projects</span></a>
         </li>
 
         
@@ -547,17 +540,10 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Code</span></a>
+          <a class="nav-link " href="/code"><span>Code</span></a>
         </li>
 
         
@@ -584,17 +570,70 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
             
           
           
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/post"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
             
             
-            
-              
-            
-            
+          
           
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Blog</span></a>
+          <a class="nav-link " href="/textbooks"><span>Textbooks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/books"><span>Books</span></a>
         </li>
 
         
@@ -779,12 +818,9 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   <div class="article-container">
 
     <div class="article-style">
-      <p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.</p>
-<p><strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.</strong></p>
-<p>On this page, you&rsquo;ll find some examples of the types of technical content that can be rendered with Academic.</p>
-<h2 id="examples">Examples</h2>
+      <h2 id="examples">Examples</h2>
 <h3 id="code">Code</h3>
-<p>Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the <code>highlight</code> option in your <code>config/_default/params.toml</code> file.</p>
+<p>Academic supports a Markdown extension for highlighting code syntax. Enable this feature by toggling the <code>highlight</code> option in your <code>config/_default/params.toml</code> file.</p>
 <pre><code>```python
 import pandas as pd
 data = pd.read_csv(&quot;data.csv&quot;)
@@ -797,12 +833,12 @@ data = pd.read_csv(&quot;data.csv&quot;)
 data.head()
 </code></pre>
 <h3 id="charts">Charts</h3>
-<p>Academic supports the popular <a href="https://plot.ly/" target="_blank" rel="noopener">Plotly</a> chart format.</p>
-<p>Save your Plotly JSON in your page folder, for example <code>chart.json</code>, and then add the <code>{{&lt; chart data=&quot;chart&quot; &gt;}}</code> shortcode where you would like the chart to appear.</p>
+<p>Academic supports the <a href="https://plot.ly/" target="_blank" rel="noopener">Plotly</a> chart format.</p>
+<p>Save Plotly JSON in page folder, for example <code>chart.json</code>, and then add the <code>{{&lt; chart data=&quot;chart&quot; &gt;}}</code> shortcode where you would like the chart to appear.</p>
 <p>Demo:</p>
 
 
-<div id="chart-749821365" class="chart"></div>
+<div id="chart-967542813" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -812,7 +848,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json("./line-chart.json", function(chart) {
-        Plotly.plot('chart-749821365', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-967542813', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1161,8 +1197,8 @@ You found me!
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://academic-demo.netlify.app/">Kyle Reese</a></h5>
-      <h6 class="card-subtitle">Lead Personal Lines Analyst</h6>
-      <p class="card-text">I am interested in Statistics, Applied Mathematics, and Computer Science and their applications in Insurance, Finance, and Biology.</p>
+      <h6 class="card-subtitle">Senior Data Scientist</h6>
+      <p class="card-text">I am interested in statistics, applied mathematics, and computer science and their applications in insurance, finance, and biology.</p>
       <ul class="network-icon" aria-hidden="true">
   
 </ul>

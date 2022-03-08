@@ -1,5 +1,5 @@
 ---
-bio: I am interested in Statistics, Applied Mathematics, and Computer Science and their applications in Insurance, Finance, and Biology.
+bio: I am interested in statistics, applied mathematics, and computer science and their applications in insurance, finance, and biology.
 education:
   courses:
   - course: Masters of Science in Statistics
@@ -15,23 +15,19 @@ interests:
 - fMRI Statistics and Biological Modeling
 - Insurance and Finance Applications
 organizations:
-- name: Westfield Insurance
-  url: https://www.westfieldinsurance.com/
-role: Lead Personal Lines Analyst
+- name: Tokio Marine HCC
+  url: https://www.tmhcc.com/en-us/
+role: Senior Data Scientist
 social:
 superuser: true
 title: Kyle Reese
 ---
 
-Hi! I am Kyle Reese and I am interested in statistics, applied mathematics, and computer science and their applications in insurance, finance, and biology. I currently work at Westfield Insurance where I am responsible for personal lines data needs. 
+Hi! I am Kyle Reese and I am interested in statistics, applied mathematics, and computer science and their applications in insurance, finance, and biology. I currently work at Tokio Marine HCC as the Senior Data Scientist for the Public Risk Group (we insure water districts (both private and public) as well as municipalities like townships, cities, fire and police departments, counties, etc.).
 
-I am currently constructing this website and making this my main page (older page was https://kyle-jeffrey-reese.github.io/personal-website/
-). The things on the navbar do have some placeholder information in them but this website is obviously not a finished project! Some of the things I am working on include:
+I use this website to catalog code, keep track of notes and research papers, blog, and a wide variety of other things. Obviously feel free to explore! 
 
-* Academic papers I have written
-* Projects I have created (including Shiny, Streamlit, and Dash apps)
-* Programming website solutions (Kattis, Project Euler, Project Rosalind, etc.)
-* Code to reference for future use
+NOTE: I am currently making some changes as of 3/6/2022 and most pages are placeholders until I am ready to make additional changes.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 

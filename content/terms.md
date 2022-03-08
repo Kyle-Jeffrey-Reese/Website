@@ -9,5 +9,5 @@ header:
 share: false
 title: Terms
 ---
-
+No terms! You can do anything you want!
 ...
