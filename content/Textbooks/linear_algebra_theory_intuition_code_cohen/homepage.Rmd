@@ -2,7 +2,8 @@
 title: "Linear Algebra: Theory, Intuition, Code by Mike X Cohen"
 author: "Kyle Reese"
 date: "3/2/2022"
-output: html_document
+output:
+  blogdown::html_page:
 ---
 
 Notes, code, and solutions for Linear Algebra: Theory, Intuition, Code by Mike X Cohen:
