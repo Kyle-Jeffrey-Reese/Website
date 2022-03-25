@@ -1,0 +1,52 @@
+---
+title: "Counting DNA Nucleotides"
+author: "Kyle Reese"
+date: "3/2/2022"
+output: html_document
+---
+
+We can write a function to easily get the count of the letters of a string. We use a Python dictionary to store and count the DNA string nucleotides: 
+
+```{python}
+def dna_nucleotide_count(dna_string: str) -> str:
+    """
+    Parameters
+    ----------
+    dna_string : Str
+    DNA Nucleotide String (DNA String)   
+    
+    Returns 
+    -------
+    Dictionary
+    Count of each of the bases adenine, cytosine, guanine, and thymine
+    
+    Example
+    -------
+    Input: AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
+    Output: {'A': 20, 'G': 17, 'C': 12, 'T': 21}
+    """
+    nucleotide_count = {}
+    for base in dna_string:
+        if base in nucleotide_count: #Create nucleotide counter or add one to nucleotide already existing
+            nucleotide_count[base] += 1
+        else:
+            nucleotide_count[base] = 1
+    
+    return nucleotide_count
+
+print(dna_nucleotide_count('AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'))
+```
+
+I manually put them in the right order based on the expected input.
+Two other methods from the solutions section that were particularly interesting were:
+
+```{python}
+def qt(s):
+      return s.count("A"), s.count("G"), s.count("C"), s.count("T")
+```
+
+and 
+
+```{python, eval = FALSE}
+print(*map(input().count, "ACGT"))
+```

@@ -1,0 +1,33 @@
+---
+title: "Transcribing DNA into RNA"
+author: "Kyle Reese"
+date: "3/2/2022"
+output: html_document
+---
+
+This is an extremely easy problem. We can just use the replace string method to replace the T's with U's:
+
+```{python}
+def dna_transtribed_to_rna(dna_string: str) -> str:
+    """
+    Parameters
+    ----------
+    dna_string : Str
+    DNA Nucleotide String (DNA String)   
+    
+    Returns 
+    -------
+    String
+    Transcribes the DNA string into a RNA string (replaces Thymine with Uracil)
+    
+    
+    Example
+    -------
+    Input: GATGGAACTTGACTACGTAAATT
+    Output: GAUGGAACUUGACUACGUAAAUU
+    """
+    
+    return dna_string.replace('T', 'U')
+
+print(dna_transtribed_to_rna('GATGGAACTTGACTACGTAAATT'))
+```

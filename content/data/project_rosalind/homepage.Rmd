@@ -1,0 +1,12 @@
+---
+title: "Project Rosalind Programming Solutions"
+author: "Kyle Reese"
+date: "3/2/2022"
+output: html_document
+---
+
+Solutions to Project Rosalind questions:
+
+[Counting DNA Nucleotides](/data/project_rosalind/counting_dna_nucleotides/) \
+[Transcribing DNA into RNA](/data/project_rosalind/transcribing_dna_into_rna/) \
+[Complementing a Strand of DNA](/data/project_rosalind/complementing_a_strand_of_dna/) \

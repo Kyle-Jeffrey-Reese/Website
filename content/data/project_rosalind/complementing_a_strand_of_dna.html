@@ -1,0 +1,46 @@
+---
+title: "Complementing a Strand of DNA"
+author: "Kyle Reese"
+date: "3/2/2022"
+output: html_document
+---
+
+
+
+<div class="line-block">      We firstly need to reverse the string which we can do by list slicing. We then loop through the now inversed string changing A to T, C to G, etc. We store these values in a list called string_list and join them together (strings are immutable and wanted to avoid repeatedly creating new strings).</div>
+<pre class="python"><code>def reverse_complement(dna_string: str) -&gt; str:
+    &quot;&quot;&quot;
+    Parameters
+    ----------
+    dna_string : Str
+    DNA Nucleotide String (DNA String)   
+    
+    Returns 
+    -------
+    Reverse complement of string
+    Type: Str
+    
+    Example
+    -------
+    Input: AAAACCCGGT
+    Output: ACCGGGTTTT
+    &quot;&quot;&quot;
+    string_list = []
+    dna_string_reverse = dna_string[::-1]
+    for nucleotide in dna_string_reverse:
+        if nucleotide == &#39;A&#39;:
+            string_list.append(&#39;T&#39;)
+        if nucleotide == &#39;T&#39;:
+            string_list.append(&#39;A&#39;)
+        if nucleotide == &#39;C&#39;:
+            string_list.append(&#39;G&#39;)
+        if nucleotide == &#39;G&#39;:
+            string_list.append(&#39;C&#39;)
+               
+    return &#39;&#39;.join(string_list)
+
+print(reverse_complement(&#39;AAAACCCGGT&#39;))</code></pre>
+<pre><code>## ACCGGGTTTT</code></pre>
+<p>We could include the slicing in the for loop like below to save memory/time:</p>
+<pre class="python"><code>for nucleotide in dna_string[::-1]:
+    stuff</code></pre>

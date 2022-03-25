@@ -1,0 +1,12 @@
+---
+title: "ISLR"
+author: "Kyle Reese"
+date: "3/2/2022"
+output: html_document
+---
+
+Notes, code, and solutions for ISLR:
+
+[Chapter 2]() \
+[Chapter 3]() \
+[Chapter 4]() \
