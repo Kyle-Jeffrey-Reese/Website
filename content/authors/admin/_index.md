@@ -27,7 +27,6 @@ Hi! I am Kyle Reese and I am interested in statistics, applied mathematics, and 
 
 I use this website to catalog code, keep track of notes and research papers, blog, and a wide variety of other things. Obviously feel free to explore! 
 
-NOTE: I am currently making some changes as of 3/6/2022 and most pages are placeholders until I am ready to make additional changes.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
